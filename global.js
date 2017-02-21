@@ -7,9 +7,9 @@ var spaceship1 = {
     }
 }
 
-// Call the drive method with a speed argument value of 65
-spaceship1.launch(65)
+spaceship1.launch()
 
+// Object new
 var spaceship2 = new Object()
 spaceship2.name = 'Terra Venture'
 spaceship2.launchTerraVenture = function(speed) {
@@ -18,7 +18,7 @@ spaceship2.launchTerraVenture = function(speed) {
 
 spaceship2.launchTerraVenture('1.5lyph');
 
-
+// Constructor function
 var Spaceship3 = function() {
     this.name = 'Astro Megaship'
     this.launchAstroMegaship = function(speed) {
@@ -29,6 +29,7 @@ var Spaceship3 = function() {
 var ship3 = new Spaceship3()
 ship3.launchAstroMegaship('1lyph')
 
+// Class 
 class Spaceship4 {
     constructor() {
         this.name = 'MagnaDefender'
